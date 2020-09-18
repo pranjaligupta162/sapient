@@ -90,5 +90,16 @@
 	    display: block;
 	    width: 100%;
 	    padding: 10px;
+        position: fixed;
 	}
 	.footer h3{display:inline; }
+
+    @media only screen and (min-width: 1025px) and (max-width: 1440px){
+        .filtersDv{overflow: scroll;height: calc(100vh - 100px);}
+        .fltrBtn{width:100%;}
+    }
+
+
+
+
+
